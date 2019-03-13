@@ -1,9 +1,15 @@
 # User Service
-The Application is implemeted using H2 In-Memory database as a backend, keeping testing ease in mind.
+The Application is implemeted using SpringBoot and H2 In-Memory database as a backend, keeping testing ease in mind.
 The same is tested using Postgres with AWS RDS by changing the connection properties in the application.properties
 
 It has four test-cases to check the create, retrive, update and delete.
 
+Steps to run:
+
+1. clone the project
+2. import the project as a maven project
+3. execute maven clean install after navigating to the project folder
+4. Run UserServiceApplication as a java application
 
 ### Guides
 The following operations can be performed for a User:
@@ -48,6 +54,9 @@ HTTP-Method: GET
 URL: http://localhost:9091/users/1
 HTTP-Method: DELETE
 
+Response:
+Sucess: User removed from DB! 
+Failure: Failed to remove user!
 
 ### List all Users
 
