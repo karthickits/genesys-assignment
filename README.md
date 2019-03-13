@@ -3,14 +3,13 @@
 ### Guides
 The following operations can be performed for a User:
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+* [Create new User/ Update a User](http://localhost:9091/users/save)
+* [Find a User by Id](http://localhost:9091/users/1)
+* [Delete a User by Id](http://localhost:9091/users/1)
+* [List all the Users](http://localhost:9091/users/list)
+* [Log a User in using name and password](http://localhost:9091/users/login?name=Karthick&password=Admin@123)
 
-###Save User
-
-* Saves a new User
+###Create or update User
 
 ** URL: http://localhost:9091/users/save
 
@@ -24,28 +23,34 @@ Payload: HTTP-Method: POST
 }
 
 
-Find a  User by id
+### Find a  User by id
 
 URL: http://localhost:9091/users/1
 HTTP-Method: GET
 
 
-Delete a User by id
+### Delete a User by id
 
 URL: http://localhost:9091/users/1
 HTTP-Method: DELETE
 
 
-List all Users
+### List all Users
 
 URL: http://localhost:9091/users/list
 HTTP-Method: GET
 
 
-Login using name and password
+### Login using name and password
 
 URL: http://localhost:9091/users/login?name=Karthick&password=Admin@123
+
 Response:
+
+Sucess: Login Successfull! Welcome Karthick
+Failure: Not a valid User, Please check the credentials
+
+
 
 
 
