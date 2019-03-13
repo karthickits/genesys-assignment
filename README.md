@@ -11,6 +11,8 @@ Steps to run:
 3. execute maven clean install after navigating to the project folder
 4. Run UserServiceApplication as a java application
 
+Note: Have not added default data in the db. Please create few users to test. thanks
+
 ### Guides
 The following operations can be performed for a User:
 
