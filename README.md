@@ -1,4 +1,9 @@
 # User Service
+The Application is implemeted using H2 In-Memory database as a backend, keeping testing ease in mind.
+The same is tested using Postgres with AWS RDS by changing the connection properties in the application.properties
+
+It has four test-cases to check the create, retrive, update and delete.
+
 
 ### Guides
 The following operations can be performed for a User:
@@ -21,6 +26,15 @@ Payload: HTTP-Method: POST
   "password": "Admin@123"
   
 }
+To Update the entity, Unique identifier id needs to be sent with the payload along with the udpated information.
+{
+  "id":"1",
+  "name": "Shiva",
+  "address": "Tambaram",
+  "password": "User@123"
+  
+}
+
 
 
 ### Find a  User by id
