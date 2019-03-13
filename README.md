@@ -65,6 +65,19 @@ Failure: Failed to remove user!
 URL: http://localhost:9091/users/list
 HTTP-Method: GET
 
+[{
+  "id": 1,
+  "name": "Shiva",
+  "address": "Taramani",
+  "password": "Admin@123",
+  "lastLoggedIn": "2019-03-13T05:34:38.606+0000"
+}, {
+  "id": 2,
+  "name": "Karthick",
+  "address": "Gunasekaran",
+  "password": "Admin@123",
+  "lastLoggedIn": "2019-03-13T05:34:56.173+0000"
+}]
 
 ### Login using name and password
 
